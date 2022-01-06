@@ -1,0 +1,254 @@
+html{ background:pink;}
+.container{
+	margin:0 auto;
+	width: 900px;
+	padding: 10px;
+}
+
+.navbar{
+	padding-top: 25px;
+	position: relative;
+	width: 100%;
+	background: #fff;
+	padding-bottom: -90px;
+	box-shadow: 2px 2px 2px #000;
+}
+.navbar h1{
+	font-family: Arial;
+	font-size: 28px;
+ text-align: center;
+ color: pink;
+ padding: 10px;
+ text-shadow: 2px 2px 2px #000;
+ padding-bottom: 50px;
+ 
+}
+.slideshow h1{text-align: center;}
+.slideshow{
+	margin-top: -10px;
+	width: 100%;
+	position:0 auto;
+	background: #fff;
+	padding-bottom: -10px;
+	margin-bottom: 60px;
+	box-shadow: 2px 2px 2px #000;
+}
+.images{
+	width: 600px;
+     background: #fff;
+       margin:0 auto;
+	   padding: 15px;
+     padding-bottom: 125px;
+	 margin-right: 70px;
+	 padding-left: 55px;
+}
+.images img{
+	display: block-inline;
+	float: left;
+	 border-left: 5px solid white;
+}
+
+
+.header{
+	margin-top: -50px;
+  width: 100%;
+  background: #fff;
+  position:0 auto;
+  padding-bottom: 25px;
+  box-shadow: 2px 2px 2px #000;
+}
+.header h1{
+	padding-bottom: 15px;
+	text-align: center;
+	font-family:Helvetica, Verdana;
+	color: tomato;
+	text-shadow: 3px 3px 3px #000;
+	}
+.header p{text-align: center;}
+.header ul li{
+	width:400px;
+	display: inline;
+	position:0 auto;
+	margin-right: -2px;
+	padding: 3px;
+	margin-left: 120px;
+	border-radius: 5px;
+}
+.section .article #title{
+	color: pink;
+	text-shadow: 2px 2px 2px #000;
+}
+.header a{
+	padding: 10px;
+	font-family: Helvetica, Verdana;
+	text-shadow: 4px 2px 4px #000;
+	text-decoration: none;
+	color: #fff;
+	background: pink;
+	font-size: 18px;
+}
+.section{
+	margin-top: -16px;
+	width: 100%;
+	position:0 auto;
+	background: #fff;
+	padding-bottom: 5px;
+	box-shadow: 2px 2px 2px #000;
+}
+.article{
+	box-shadow: -8px -8px 8px #ddd;
+	padding-top: 25px;
+	width: 500px;
+	position:0 auto;
+	margin:0 auto;
+	 margin-bottom: 60px;
+}
+div .article ul li{
+	list-style-type: none;
+	width: 100%;
+	display: inline;
+	margin-right: 25px;
+	padding-left: 55px;
+}
+.article a{
+ color: #000;
+ text-decoration: none;
+ font-size: 26px;
+ font-family: Helvetica;
+}
+.footer{
+	margin-bottom: 25px;
+	margin-top: 20px;
+	width: 900px;
+	margin:0 auto;
+	background: #fff;
+	border-bottom: 6px solid tomato;
+	box-shadow: 2px 2px 2px #000;
+}
+
+.links{
+	width: 100%;
+	position: relative;
+	margin:0 auto;
+	padding-bottom: 25px;
+}
+.footer h1{text-align: center;
+ font-family: Helvetica;
+ color: tomato;
+ text-shadow: 4px 2px 4px #000;
+ 
+}
+.links ul li{ 
+     list-style-type: none;
+     width: 200px;
+	 padding-left: 150px;
+	 margin-right:  50px;
+	 display: inline;
+}
+.links a {
+	font-family: Helvetica;
+	text-decoration: none;
+	font-size: 18px;
+	color: #fff;
+	text-shadow: 2px 2px 2px #000;
+	background: pink;
+	padding: 5px;
+	box-shadow: 3px 3px 3px #000;
+}
+
+.seguinos{
+	position: none;
+	 width: 275px;
+	 background: #000;
+	 padding-top: 50px;
+	 margin-left: 300px;
+	 border-left: 4px solid #fff;
+	 border-right: 4px solid #fff;
+	 border-top: 4px solid #fff;
+	 border-bottom: -4px solid #fff;
+	 
+}
+.seguinos p{
+	font-family: Helvetica, Arial;
+	font-size: 20px;
+	color: #fff;
+	margin-top: -50px;
+	text-align: center;
+}
+.items{
+	position: relative;
+	width: 100%;
+	display: flex;
+	margin-right: 15px;
+	background: #000;
+	margin-top: -25px;
+	font-family: sans-serif, helvetica;
+	
+}
+.items #twitter a{
+	padding: var(--items-padding);
+	 width: var(--tt-width);
+	 background: var(--tt-background);
+	 text-align: var(--tt-textalign);
+	 text-shadow: var(--tt-textshadow);
+	 color: var(--tt-color);
+	 text-decoration: var(--tt-textdecoration);
+}
+
+.items #facebook a{
+	padding: var(--items-padding);
+     width: var(--fb-width);
+	 background: var(--fb-background);
+	 text-align: var(--fb-textalign);
+	 text-shadow: var(--fb-textshadow);
+	 color: var(--fb-color);
+	 text-decoration: var(--fb-textdecoration);
+}
+.items #youtube a{
+	padding: var(--items-padding);
+     width: var(--yt-width);
+	 background: var(--yt-background);
+	 text-align: var(--yt-textalign);
+	 text-shadow: var(--yt-textshadow);
+	 color: var(--yt-color);
+     text-decoration: var(--yt-textdecoration);	 
+}
+.items #instagram a{
+	padding: var(--items-padding);
+     width: var(--ig-width);
+	 background: var(--ig-background);
+	 text-align: var(--ig-textalign);
+	 text-shadow: var(--ig-textshadow);
+	 color: var(--ig-color);
+     text-decoration: var(--ig-textdecoration);	 
+}
+:root{
+--items-padding: 5px;
+--tt-width: 100%;
+--tt-background: #00acee;
+--tt-textalign: center;
+--tt-textshadow: 2px 2px 2px #000;
+--tt-color: #fff;
+--tt-textdecoration: none;
+     
+	 --fb-width: 100%;
+	 --fb-background: #1877f2;
+	 --fb-textalign: center;
+	 --fb-textshadow: 2px 2px 2px #000;
+	 --fb-color: #fff;
+	 --fb-textdecoration: none;
+	 
+		 --yt-width: 100%;
+		 --yt-background: #c4302b;
+		 --yt-textalign: center;
+		 --yt-textshadow: 2px 2px 2px #000;
+		 --yt-color: #fff;
+		 --yt-textdecoration: none;
+		     
+			 --ig-width: 100%;
+			 --ig-background: #8a49a1;
+			 --ig-textalign: center;
+			 --ig-textshadow: 2px 2px 2px #000;
+			 --ig-color: #fff;
+			 --ig-textdecoration: none;
+}
